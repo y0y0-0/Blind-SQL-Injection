@@ -5,7 +5,7 @@ SQLMap is a tool designed to automatically detect SQL injection points and strea
 
 However, when SQLMap is unable to automatically identify injection points, there remains a need for efficient data extraction from manually detected vulnerabilities.
 
-To address this, I developed a tool that utilizes the SQLMap API, enabling automated data extraction from injection points identified manually by the tester.
+To address this, I developed a tool that utilizes the SQLMap API enabling automated data extraction from injection points identified manually by the tester.
 
 ## Getting started
 ```bash
