@@ -1,4 +1,4 @@
-# y0y0 Blind SQL Injectior
+# Blind SQL Injectior
 
 
 ## Getting started
