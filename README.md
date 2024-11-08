@@ -1,4 +1,4 @@
-# Blind SQL Injector <small>with SQLMap API</small>
+# Blind SQL Injector *with SQLMap API*
 This tool automates data extraction by leveraging the SQLMap API at manually identified Blind SQL injection points.
 
 SQLMap is a tool designed to automatically detect SQL injection points and streamline the data extraction process. 
