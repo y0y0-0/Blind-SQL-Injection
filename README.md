@@ -28,7 +28,7 @@ python injector.py
 - Tamper : Use given script(s) for tampering injection data
 - Proxy : Use a proxy to connect to the target URL
 
-## Exmaple
+## Example
 *Step 1)* Identify Blind SQL Injection point
 
 bbs.jsp?**search_type=title**&keyword=test
