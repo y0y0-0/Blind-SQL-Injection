@@ -11,5 +11,7 @@ To address this, I developed a tool that utilizes the sqlmap API, enabling autom
 ```bash
 pip install -r requirements.txt
 
+python python sqlmapapi.py -s -H 127.0.0.1 -p 8775
+
 python injector.py
 ```
