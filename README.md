@@ -1,9 +1,9 @@
-# Blind SQL Injection
+# y0y0 Blind SQL Injectior
 
 
 ## Getting started
 ```bash
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 
-python3 start.py
+python injector.py
 ```
