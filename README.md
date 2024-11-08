@@ -27,3 +27,14 @@ python injector.py
 - String : String to match when query is evaluated to True
 - Tamper : Use given script(s) for tampering injection data
 - Proxy : Use a proxy to connect to the target URL
+
+## Exmaple
+Step 1) Identify Blind SQL Injection point
+bbs.jsp?**search_type=title**&keyword=test
+
+Step 2) Exclude conditional queries from the SQL Injectino query, and insert the appropriate prefix and suffix.
+True : search_type=1=1 and title
+False : search_type=1=2 and title
+--> **suffix: and title**
+
+Step 3) Specify the distinctive keyword for identification when a true query is executed.
