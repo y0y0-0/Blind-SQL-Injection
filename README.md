@@ -20,3 +20,10 @@ python injector.py
 <img width="398" alt="image" src="https://github.com/user-attachments/assets/2e0a9b43-8599-40de-9c7c-1201b48b4d66">
 
 ## Usage
+- Request File : Load HTTP request from a file
+- Parameter : Testable parameter(s)
+- Prefix : Injection payload prefix string
+- Suffix : Injection payload suffix string
+- String : String to match when query is evaluated to True
+- Tamper : Use given script(s) for tampering injection data
+- Proxy : Use a proxy to connect to the target URL
