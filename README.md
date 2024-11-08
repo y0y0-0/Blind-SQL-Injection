@@ -30,6 +30,7 @@ python injector.py
 
 ## Exmaple
 Step 1) Identify Blind SQL Injection point
+
 bbs.jsp?**search_type=title**&keyword=test
 
 Step 2) Exclude conditional queries from the SQL Injectino query, and insert the appropriate prefix and suffix.
