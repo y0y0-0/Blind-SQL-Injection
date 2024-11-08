@@ -15,3 +15,8 @@ python python sqlmapapi.py -s -H 127.0.0.1 -p 8775
 
 python injector.py
 ```
+
+## Screenshots
+<img width="398" alt="image" src="https://github.com/user-attachments/assets/2e0a9b43-8599-40de-9c7c-1201b48b4d66">
+
+## Usage
